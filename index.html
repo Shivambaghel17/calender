@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Interactive Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button class="prev-month" onclick="changeMonth(-1)">&#8592;</button>
+      <div class="month-year" id="month-year"></div>
+      <button class="next-month" onclick="changeMonth(1)">&#8594;</button>
+    </div>
+
+    <div class="calendar-grid" id="calendar-grid"></div>
+
+    <div class="calendar-footer">
+      <span>Created by Shivam Baghel</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
